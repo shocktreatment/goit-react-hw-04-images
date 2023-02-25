@@ -21,3 +21,4 @@ ImageGalleryItem.propTypes = {
   alt: PropTypes.string
 }
 
+
