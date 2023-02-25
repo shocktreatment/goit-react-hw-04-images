@@ -25,6 +25,7 @@ class Modal extends Component {
     const { children } = this.props;
     const { onCloseModal } = this;
 
+    
     return createPortal(
       <div className={styles.Overlay} onClick={onCloseModal}>
         <div className={styles.Modal}>
